@@ -2,9 +2,10 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 28
+    buildToolsVersion "28.0.3"
     defaultConfig {
         applicationId "com.iqiqiya.lanlanweather"
-        minSdkVersion 19
+        minSdkVersion 15
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"

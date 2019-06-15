@@ -2,11 +2,11 @@ package com.iqiqiya.lanlanweather.db;
 
 import org.litepal.crud.DataSupport;
 
-public class County extends DataSupport {
+public class County extends DataSupport{
     int id;
     private String countyName;//县名
     private String weatherId;
-    private int CityId;
+    private int cityId;
 
     public int getId()
     {
@@ -34,10 +34,11 @@ public class County extends DataSupport {
     }
     public int getCityId()
     {
-        return CityId;
+        return cityId;
     }
     public void setCityIdId(int cityId)
     {
-        this.CityId=CityId;
+        this.cityId=cityId;
     }
+
 }
