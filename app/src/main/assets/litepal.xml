@@ -3,7 +3,7 @@
     <version value="1"></version>
     <list>
         <mapping class="com.iqiqiya.lanlanweather.db.Province"></mapping>
-        <mapping class="com.iqiqiya.lanlanweather.db.city"></mapping>
+        <mapping class="com.iqiqiya.lanlanweather.db.City"></mapping>
         <mapping class="com.iqiqiya.lanlanweather.db.County"></mapping>
     </list>
 </litepal>
