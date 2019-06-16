@@ -171,6 +171,7 @@ public class WeatherActivity extends AppCompatActivity {
 
     /**
      * 根据天气id请求城市天气信息
+     * key=5cfa71f0523045cbbc2a915848c89ad4
      */
     public void requestWeather(String weatherId)
     {
